@@ -1,34 +1,62 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Project Build with Next Js
 
-## Getting Started
+ <p>This project is a simple Test...!</p>
 
-First, run the development server:
+## ✋🏻 Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+- [React.js](https://nextjs.org/)
+- [Next.js](https://nextjs.org/)
+- [TypeScript](https://nextjs.org/)
+
+## Installation
+
+Clone the repository, and install the dependencies by running the following commands:
+
+```sh
+  $ git clone https://github.com/alopes-dev/iStore.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+```sh
+  $ cd iStore
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```sh
+ $ yarn  # or npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Running the application
 
-## Learn More
+Access the project folder and run the following command:
 
-To learn more about Next.js, take a look at the following resources:
+```sh
+  $ yarn dev # or npm run dev
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Testing the application
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Access the project folder and run the following command:
 
-## Deploy on Vercel
+```sh
+  $ yarn test # or npm run test
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contribution
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Contributions are what make the open source community an incredible place to learn, inspire and create. Any contribution you make will be ** very valuable and appreciated **.
+
+1. Fork the project
+2. Create a Branch for your Feature (`git checkout -b feature/IncredibleFeature`)
+3. Add your changes (`git add .`)
+4. Commit your changes (`git commit -m 'Adding an awesome Feature!`)
+5. Push the Branch (`git push origin feature/FeatureIncrivel`)
+6. Open a Pull Request
+
+<!-- LICENSE -->
+
+## Contacts
+
+António Lopes
+
+- [Linkedin](https://www.linkedin.com/in/ant%C3%B3nio-ferraz-lopes-448019178/)
+- [Facebook](https://www.facebook.com/antonioferrazlopes.pdk/)
+- [Instagram](https://www.instagram.com/antonio_dizzy/)
