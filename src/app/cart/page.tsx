@@ -1,12 +1,12 @@
+import CartView from "~/presentation/components/cart";
 import Header from "~/presentation/components/header";
 import styles from "./page.module.css";
-import ProductView from "~/presentation/components/product";
 
-export default function Home() {
+export default function Cart() {
   return (
     <main className={styles.main}>
       <Header />
-      <ProductView />
+      <CartView />
     </main>
   );
 }
