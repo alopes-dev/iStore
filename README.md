@@ -8,6 +8,9 @@
 - [Next.js](https://nextjs.org/)
 - [TypeScript](https://nextjs.org/)
 
+## Project Deployed link
+- [iStore](https://i-store-1ouc.vercel.app/)
+
 ## Installation
 
 Clone the repository, and install the dependencies by running the following commands:
