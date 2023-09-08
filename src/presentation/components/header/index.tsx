@@ -1,10 +1,10 @@
 "use client";
-import { FC, useState } from "react";
+import { FC } from "react";
 import { MdShoppingBasket } from "react-icons/md";
 
 import { Container, Cart } from "./styles";
 import Image from "next/image";
-import { useAppDispatch, useAppSelector } from "~/store/redux/hooks";
+import { useAppSelector } from "~/store/redux/hooks";
 import { usePathname, useRouter } from "next/navigation";
 
 const Header: FC = () => {
