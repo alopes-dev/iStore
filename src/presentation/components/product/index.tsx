@@ -29,7 +29,7 @@ const ProductView: FC = () => {
 
   return (
     <>
-      <ProductList>
+      <ProductList aria-label="product-list">
         {products.map((product, index) => (
           <li key={product.id}>
             <img src={getImage(index)} alt={product.name} />

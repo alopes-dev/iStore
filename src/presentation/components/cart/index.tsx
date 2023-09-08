@@ -57,7 +57,7 @@ const CartView: FC = () => {
 
   return (
     <>
-      <Container>
+      <Container aria-label="cart-container">
         <ProductTable>
           <thead>
             <tr>

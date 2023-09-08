@@ -20,7 +20,7 @@ const Header: FC = () => {
   }
 
   return (
-    <Container>
+    <Container aria-label="header-container">
       <div
         onClick={() => {
           push("/");
@@ -29,10 +29,10 @@ const Header: FC = () => {
         <Image src={"/assets/logo.svg"} height={120} width={120} alt="Logo" />
       </div>
       <h1>iStore</h1>
-      <Cart onClick={handleCartClicked}>
+      <Cart aria-label="cart-shopping" onClick={handleCartClicked}>
         <div>
           <strong>Meu Carrinho</strong>
-          <span>{carts.length} itens</span>
+          <span>{carts?.length} itens</span>
         </div>
         <MdShoppingBasket
           aria-label="shopping-basket"

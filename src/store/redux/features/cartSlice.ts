@@ -14,7 +14,7 @@ export interface CartState extends IProduct {
 
 const initialState = [] as CartState[];
 
-export const cart = createSlice({
+export const cartSlice = createSlice({
   name: "cart",
   initialState,
   reducers: {
@@ -74,5 +74,5 @@ export const {
   removeFromCart,
   addToAllCart,
   reset,
-} = cart.actions;
-export default cart.reducer;
+} = cartSlice.actions;
+export default cartSlice.reducer;
