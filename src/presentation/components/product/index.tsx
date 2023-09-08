@@ -11,9 +11,7 @@ import { addToCart } from "~/store/redux/features/cartSlice";
 import { useProduct } from "~/presentation/hooks/useProduct";
 import Image from "next/image";
 import { useAppSelector } from "~/store/redux/hooks";
-
-const getImage = (id: number) =>
-  `https://picsum.photos/255/100?grayscale?random=${id}`;
+import { getImage } from "~/presentation/utils/format";
 
 const ProductView: FC = () => {
   const dispatch = useDispatch();
@@ -39,7 +37,7 @@ const ProductView: FC = () => {
             <button
               type="button"
               onClick={() => {
-                dispatch(addToCart(product));
+                dispatch(addToCart({ ...product, image: getImage(index) }));
               }}
             >
               <div>
