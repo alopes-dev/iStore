@@ -9,7 +9,7 @@
 - [TypeScript](https://nextjs.org/)
 
 ## Project Deployed link
-- [iStore](https://i-store-1ouc.vercel.app/)
+- [iStore](https://i-store-three.vercel.app/)
 
 ## Installation
 
