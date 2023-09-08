@@ -1,3 +1,5 @@
+/* eslint-disable @next/next/no-img-element */
+
 "use client";
 import React, { FC, useMemo } from "react";
 import { useDispatch } from "react-redux";
